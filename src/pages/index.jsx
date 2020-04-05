@@ -4,7 +4,7 @@ export default () => (
   <>
     <Head>
       <title>Prost!</title>
-      <meta name="description" content="Next.js starter with Tailwind CSS" />
+      <meta name="description" content="Next.js starter with Tailwind UI" />
     </Head>
 
     <div className="flex flex-col items-center sm:min-h-screen sm:bg-blue-200">
@@ -14,7 +14,7 @@ export default () => (
           <p className="font-semibold">This starter uses:</p>
           <ul className="list-disc list-inside">
             <li><a className="hover:underline" href="https://nextjs.org/">Next.js</a></li>
-            <li><a className="hover:underline" href="https://tailwindcss.com/">Tailwind CSS</a></li>
+            <li><a className="hover:underline" href="https://tailwindui.com/">Tailwind UI</a></li>
           </ul>
         </div>
       </article>
