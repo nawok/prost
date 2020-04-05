@@ -1,0 +1,30 @@
+{
+  "name": "prost-js",
+  "version": "1.0.0",
+  "description": "Next.js starter",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawok/prost.git"
+  },
+  "keywords": [
+    "Starter",
+    "Next.js"
+  ],
+  "author": "Pavel Fomchenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nawok/prost/issues"
+  },
+  "homepage": "https://github.com/nawok/prost#readme",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
