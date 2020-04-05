@@ -1,7 +1,7 @@
 {
   "name": "prost-js",
   "version": "1.0.0",
-  "description": "Next.js starter",
+  "description": "Next.js starter with Tailwind CSS",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -14,7 +14,8 @@
   },
   "keywords": [
     "Starter",
-    "Next.js"
+    "Next.js",
+    "Tailwind CSS"
   ],
   "author": "Pavel Fomchenkov",
   "license": "MIT",
@@ -26,5 +27,10 @@
     "next": "^9.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.5",
+    "tailwindcss": "^1.2.0"
   }
 }
