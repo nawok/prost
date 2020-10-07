@@ -1,4 +1,7 @@
-.next
-.now
-node_modules
-out
+.env.local
+.history/
+.next/
+.now/
+.vercel/
+node_modules/
+out/

@@ -4,14 +4,26 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
       }
     }
   },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/ui')({
-      // layout: 'sidebar'
-    })
-  ]
+  plugins: [require('@tailwindcss/ui')],
+  purge: {
+    content: ['./**/*.jsx']
+  },
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
+  },
+  dark: 'media',
+  experimental: {
+    applyComplexClasses: true,
+    darkModeVariant: true,
+    defaultLineHeights: true,
+    extendedFontSizeScale: true,
+    extendedSpacingScale: true,
+    standardFontWeights: true,
+    uniformColorPalette: true
+  }
 }

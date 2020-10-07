@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Next.js starter with Tailwind UI",
   "scripts": {
-    "dev": "next",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "export": "next export",
     "start": "next start"
@@ -15,7 +15,9 @@
   "keywords": [
     "Starter",
     "Next.js",
-    "Tailwind CSS"
+    "Tailwind CSS",
+    "Framer Motion",
+    "HappyKit"
   ],
   "author": "Pavel Fomchenkov",
   "license": "MIT",
@@ -24,14 +26,17 @@
   },
   "homepage": "https://github.com/nawok/prost#readme",
   "dependencies": {
-    "next": "^9.3.4",
+    "@happykit/analytics": "^1.0.1",
+    "next": "^9.5.4",
+    "framer-motion": "^2.7.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "@tailwindcss/ui": "^0.1.3",
-    "autoprefixer": "^9.7.5",
-    "tailwindcss": "^1.2.0"
+    "@tailwindcss/ui": "^0.6.2",
+    "@tailwindui/react": "^0.1.1",
+    "autoprefixer": "^9.8.6",
+    "cross-env": "^7.0.2",
+    "tailwindcss": "^1.8.12"
   }
 }
