@@ -27,8 +27,8 @@
   "homepage": "https://github.com/nawok/prost#readme",
   "dependencies": {
     "@happykit/analytics": "^1.0.1",
-    "next": "^9.5.4",
-    "framer-motion": "^2.7.8",
+    "framer-motion": "^2.9.1",
+    "next": "^9.5.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -37,6 +37,6 @@
     "@tailwindui/react": "^0.1.1",
     "autoprefixer": "^9.8.6",
     "cross-env": "^7.0.2",
-    "tailwindcss": "^1.8.12"
+    "tailwindcss": "^1.9.0"
   }
 }

@@ -14,16 +14,17 @@ module.exports = {
   },
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
+    purgeLayersByDefault: true,
+    defaultLineHeights: true,
+    standardFontWeights: true
   },
-  dark: 'media',
   experimental: {
+    uniformColorPalette: true,
+    extendedSpacingScale: true,
+    extendedFontSizeScale: true,
     applyComplexClasses: true,
     darkModeVariant: true,
-    defaultLineHeights: true,
-    extendedFontSizeScale: true,
-    extendedSpacingScale: true,
-    standardFontWeights: true,
-    uniformColorPalette: true
-  }
+    additionalBreakpoint: true
+  },
+  dark: 'media'
 }
