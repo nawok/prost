@@ -6,7 +6,10 @@ export default function Index() {
     <>
       <Head>
         <title>Prost!</title>
-        <meta name="description" content="Next.js starter with Tailwind UI, Framer Motion, and HappyKit" />
+        <meta
+          name="description"
+          content="Next.js starter with TypeScript, Tailwind CSS, Framer Motion, and Splitbee"
+        />
       </Head>
 
       <div className="flex flex-col items-center sm:min-h-screen sm:bg-cool-gray-200">
@@ -18,7 +21,7 @@ export default function Index() {
             transition={{
               type: 'spring',
               stiffness: 250,
-              dumping: 12,
+              damping: 12,
               delay: 0.2
             }}>
             🍻&thinsp;Prost!
@@ -27,23 +30,38 @@ export default function Index() {
             <p className="font-semibold">This starter uses:</p>
             <ul className="list-disc list-inside">
               <li>
-                <a className="hover:underline hover:text-blue-600" href="https://nextjs.org/">
+                <a
+                  className="hover:underline hover:text-blue-600"
+                  href="https://nextjs.org/">
                   Next.js
                 </a>
               </li>
               <li>
-                <a className="hover:underline hover:text-blue-600" href="https://tailwindui.com/">
-                  Tailwind UI
+                <a
+                  className="hover:underline hover:text-blue-600"
+                  href="https://www.typescriptlang.org">
+                  TypeScript
                 </a>
               </li>
               <li>
-                <a className="hover:underline hover:text-blue-600" href="https://www.framer.com/motion/">
+                <a
+                  className="hover:underline hover:text-blue-600"
+                  href="https://tailwindcss.com/">
+                  Tailwind CSS
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:underline hover:text-blue-600"
+                  href="https://www.framer.com/motion/">
                   Framer Motion
                 </a>
               </li>
               <li>
-                <a className="hover:underline hover:text-blue-600" href="https://happykit.dev/">
-                  HappyKit
+                <a
+                  className="hover:underline hover:text-blue-600"
+                  href="https://app.splitbee.io/public/prost.vercel.app">
+                  Splitbee
                 </a>
               </li>
             </ul>

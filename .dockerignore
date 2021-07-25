@@ -1,0 +1,14 @@
+.git
+
+.next
+.vercel
+.vscode
+node_modules
+out
+
+.eslintrc
+.gitignore
+.prettierrc
+*Dockerfile*
+.env
+README.md
