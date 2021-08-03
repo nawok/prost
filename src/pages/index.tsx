@@ -12,7 +12,7 @@ export default function Index() {
         />
       </Head>
 
-      <div className="flex flex-col items-center sm:min-h-screen sm:bg-cool-gray-200">
+      <div className="flex flex-col items-center sm:min-h-screen sm:bg-gray-50">
         <article className="flex flex-col p-16 pt-12 text-2xl text-gray-900 bg-white sm:rounded-lg sm:shadow-md sm:mt-4 md:mt-8 lg:mt-32">
           <motion.h1
             className="text-6xl font-bold text-gray-800"
