@@ -1,6 +1,7 @@
 FROM node:lts-alpine as base
 
 FROM base AS deps
+RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
@@ -15,7 +16,6 @@ FROM base AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN addgroup nodejs --gid 1001 --system
 RUN adduser nextjs --uid 1001 --system
@@ -30,4 +30,7 @@ USER nextjs
 
 EXPOSE 3000
 
-CMD ["yarn", "start"]
+ENV PORT 3000
+ENV NEXT_TELEMETRY_DISABLED 1
+
+CMD ["node_modules/.bin/next", "start"]
