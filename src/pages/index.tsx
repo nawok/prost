@@ -13,7 +13,7 @@ export default function Index() {
       </Head>
 
       <div className="flex flex-col items-center sm:min-h-screen sm:bg-gray-50">
-        <article className="flex flex-col p-16 pt-12 text-2xl text-gray-900 bg-white sm:rounded-lg sm:shadow-md sm:mt-4 md:mt-8 lg:mt-32">
+        <article className="flex flex-col bg-white p-16 pt-12 text-2xl text-gray-900 sm:mt-4 sm:rounded-lg sm:shadow-md md:mt-8 lg:mt-32">
           <motion.h1
             className="text-6xl font-bold text-gray-800"
             initial={{ rotate: -10, scale: 0.5, opacity: 0 }}
@@ -28,38 +28,38 @@ export default function Index() {
           </motion.h1>
           <div className="mx-auto mt-8 leading-relaxed ">
             <p className="font-semibold">This starter uses:</p>
-            <ul className="list-disc list-inside">
+            <ul className="list-inside list-disc">
               <li>
                 <a
-                  className="hover:underline hover:text-blue-600"
+                  className="hover:text-blue-600 hover:underline"
                   href="https://nextjs.org/">
                   Next.js
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:underline hover:text-blue-600"
+                  className="hover:text-blue-600 hover:underline"
                   href="https://www.typescriptlang.org">
                   TypeScript
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:underline hover:text-blue-600"
+                  className="hover:text-blue-600 hover:underline"
                   href="https://tailwindcss.com/">
                   Tailwind CSS
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:underline hover:text-blue-600"
+                  className="hover:text-blue-600 hover:underline"
                   href="https://www.framer.com/motion/">
                   Framer Motion
                 </a>
               </li>
               <li>
                 <a
-                  className="hover:underline hover:text-blue-600"
+                  className="hover:text-blue-600 hover:underline"
                   href="https://app.splitbee.io/public/prost.vercel.app">
                   Splitbee
                 </a>
@@ -69,14 +69,14 @@ export default function Index() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <a
-                    className="text-sm font-medium tracking-wider text-gray-500 uppercase hover:underline hover:text-gray-400"
+                    className="text-sm font-medium uppercase tracking-wider text-gray-500 hover:text-gray-400 hover:underline"
                     href="https://github.com/nawok/prost">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      className="inline-block w-6 h-6 mr-2">
+                      className="mr-2 inline-block h-6 w-6">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -89,14 +89,14 @@ export default function Index() {
                 </li>
                 <li className="flex items-center">
                   <a
-                    className="text-sm font-medium tracking-wider text-gray-500 uppercase hover:underline hover:text-gray-400"
+                    className="text-sm font-medium uppercase tracking-wider text-gray-500 hover:text-gray-400 hover:underline"
                     href="https://pavel.codes/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      className="inline-block w-6 h-6 mr-2">
+                      className="mr-2 inline-block h-6 w-6">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
