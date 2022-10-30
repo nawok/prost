@@ -36,9 +36,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.52",
+    "@types/node": "^18.11.7",
     "@types/react": "^18.0.17",
-    "autoprefixer": "^10.4.8",
+    "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
     "eslint": "^8.22.0",
     "eslint-config-next": "^13.0.0",
